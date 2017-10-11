@@ -2,9 +2,10 @@
   "name": "portfolio-site",
   "version": "0.1.0",
   "private": true,
-  "homepage" : "http://jsphbtst.github.io/portfolio-site",
+  "homepage": "http://jsphbtst.github.io/portfolio-site",
   "dependencies": {
     "bootstrap": "^4.0.0-beta",
+    "gh-pages": "^1.0.0",
     "react": "^16.0.0",
     "react-addons-css-transition-group": "^15.6.2",
     "react-addons-transition-group": "^15.6.2",

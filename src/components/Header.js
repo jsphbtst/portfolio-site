@@ -27,13 +27,16 @@ class Header extends Component {
                 
                 <Nav className="ml-auto" navbar>
                     <NavItem className="Nav-item">
-                        <NavLink href="/contact-me">Contact Me</NavLink>
+                        <NavLink href="https://twitter.com/jsphbtst">Twitter</NavLink>
                     </NavItem>
                     <NavItem className="Nav-item">
                         <NavLink href="https://medium.com/@jsphbtst">Medium</NavLink>
                     </NavItem>
                     <NavItem className="Nav-item">
                         <NavLink href="https://github.com/jsphbtst">GitHub</NavLink>
+                    </NavItem>
+                    <NavItem className="Nav-item">
+                        <NavLink href="/contact-me">Contact Me</NavLink>
                     </NavItem>
                 </Nav>
                 </Collapse>

@@ -5,6 +5,7 @@ class ContactMe extends Component {
     render() {
         return(
         <div className="Contact-Me">
+        <h1>Contact Me</h1>
         <Form>
             <FormGroup>
                 <Label for="exampleName"><h5>Name</h5></Label>
