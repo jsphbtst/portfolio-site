@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+/* CONTACT ME */
+.Contact-Me {
+  margin-left: 18%;
+  margin-right: 18%;
+}
+
+
+/* LANDING */
+.Container p {
+  text-align: justify;
+}
+
+.Featured-Work {
+  margin-left: 7%;
+}
+
+.Nav-item {
+  margin-left: 7%;
+}
+
+.Navbar-brand {
+  margin-left: 7%;
+}
+
+.Jumbotron h1, h3 {
+  margin-left: 5%;
+}
+
+.Jumbotron p, hr {
+  text-align: justify;
+  margin-left: 5%;
+  margin-right: 4%;
+}
+
+
+/* ELEMENTS */
+.card-text, .card-title, .card-subtitle {
+  margin-right: 3%;
+  margin-left: 3%;
+}
+
+.card-title {
+  margin-top: 2%;
+}
+
+.card-subtitle {
+  margin-bottom: 5%;
+}
