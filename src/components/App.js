@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { BrowserRouter, Route } from 'react-router-dom';
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
 
 import Header from './Header';
 import Landing from './Landing';
@@ -9,16 +9,17 @@ class App extends Component {
     render() {
         return(
         <div className="App">
-            <BrowserRouter basename={process.env.PUBLIC_URL}>
+            <Header />
+            <BrowserRouter>
                 <div>
-                    <Header />
-                    <Route exact path={'/'} component={Landing} />
-                    <Route exact path={'/contact-me'} component={ContactMe} />
+                <Switch>
+                    <Route path={`${process.env.PUBLIC_URL}/contact-me`} component={ContactMe} />
+                    <Route exact path={`${process.env.PUBLIC_URL}/`} component={Landing}/>
+                </Switch>
                 </div>
-            </BrowserRouter>   
+            </BrowserRouter> 
         </div>
         );
-    
     }
 }
 export default App;
