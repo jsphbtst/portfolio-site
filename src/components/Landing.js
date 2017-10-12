@@ -14,6 +14,7 @@ class Landing extends Component {
         </Jumbotron>
         
         <h1 className="Featured-Work">Featured Work</h1>
+
         <div className="Container">
             <Container>
                 <Row>
@@ -69,7 +70,6 @@ class Landing extends Component {
                 </Row>
             </Container>
         </div>
-
         </div>
         );
     }

@@ -2,7 +2,7 @@
   "name": "portfolio-site",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://jsphbtst.github.io/portfolio-site",
+  "homepage": "https://jsphbtst.github.io/portfolio-site/",
   "dependencies": {
     "bootstrap": "^4.0.0-beta",
     "gh-pages": "^1.0.0",
