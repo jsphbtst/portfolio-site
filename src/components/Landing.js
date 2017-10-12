@@ -17,38 +17,54 @@ class Landing extends Component {
         <div className="Container">
             <Container>
                 <Row>
-                    <Col xs="8" sm="8">
-                        <h2>Artificial Intelligence</h2>
-                        <Elements title="Image Classification"
+                    <Col xs="12" sm="8">
+                        <Elements header="Artificial Intelligence"
+                                title="Image Classification"
                                 subtitle="Convolutional Neural Networks"
-                                text="Here I implemented a CNN using Keras to classify whether a given image is a cat or a dog. The accuracy reached 98%." />
+                                text="Here I implemented a CNN using Keras to classify whether a given image is a cat or a dog. The accuracy reached 98%." 
+                                link="https://github.com/jsphbtst/CatsvDogs/blob/master/CNN%20Image%20Recognizer%20for%20Cats%20and%20Dogs.ipynb"
+                                imgSource={require("../images/cnn.png")}/>
                     </Col>
-                    <Col xs="4" sm="4">
-                        <h2>Data Visualization</h2>
-                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>
+                    <Col xs="12" sm="4">
+                        <Elements header="Data Visualization"
+                                title="Node and D3JS"
+                                subtitle="World Map and Environmental Data"
+                                text="This was for a data visualization class back in undergrad. Working on this with me were Mikaela Malit and June Guerrero. We visualized environmental data that we got from the World Bank onto the world map. We originally only used D3JS with no backend at the end of the semester this was done. Later on I added a Node and Express backend just to make it stable and deployable to Heroku." 
+                                link="https://cryptic-journey-51108.herokuapp.com/"
+                                imgSource={require("../images/cnn.png")}/>
                     </Col>
                 </Row>
-
-                <br />
-
+            </Container>
+            
+            <br />
+            
+            <Container>
                 <Row>
-                    <Col xs="4" sm="4">
-                        <h2>One</h2>
-                            <Elements title="FIES PH Analysis"
-                                    subtitle="Data Exploration of FIES data from the Philippine Statistics Authority"
-                                    text="I explored the FIES data in my Jupyter Notebook to draw up some insights into the income and expenditure patterns of Filipino families." />
+                    <Col xs="12" sm="4">
+                        <Elements header="Data Exploration"
+                                title="FIES Analysis"
+                                subtitle="Exploration of Philippine Statistics Authority Data"
+                                text="I explored the FIES data in my Jupyter Notebook to draw up some insights into the income and expenditure patterns of Filipino families." 
+                                link="/" 
+                                imgSource={require("../images/fies.png")}/>
                     </Col>
-                    <Col xs="4" sm="4">
-                        <h2>Two</h2>
-                        <Elements title="Something"
-                                subtitle="Something else"
-                                text="Something else entirely" />
+
+                    <Col xs="12" sm="4">
+                        <Elements header="ReactJS"
+                                title="React Countdown Timer"
+                                subtitle="Basic React App"
+                                text="This my first ever ReactJS App. I also managed to deploy it to Heroku the same day. Here I programmed a countdown timer in anticipation of Avengers: Infinity War. " 
+                                link="https://thawing-fjord-96551.herokuapp.com/"
+                                imgSource={require("../images/avengers.jpg")} />
                     </Col>
-                    <Col xs="4" sm="4">
-                        <h2>Three</h2>
-                        <Elements title="Another something"
-                                subtitle="Aonther something else" 
-                                text="Another something else entirely" />
+
+                    <Col xs="12" sm="4">
+                        <Elements header="Deep NLP"
+                                title="Spam Detection Using LSTM"
+                                subtitle="Deep NLP with Keras" 
+                                text="This was Day 31 of my #100DaysOfCode journey. Here I implemented a simple LSTM model using Keras to detect whether a given text in an email is spam or not. The purpose was to just get used to how text analytics is done. Learning never stops!" 
+                                link="https://github.com/jsphbtst/SpamDetectionLSTM/blob/master/Spam%20Detection%20Using%20LSTM.ipynb"
+                                imgSource={require("../images/lstm.svg")} />
                     </Col>
                 </Row>
             </Container>

@@ -4,6 +4,17 @@ body {
   font-family: sans-serif;
 }
 
+
+/* HEADER */
+.Nav-item {
+  margin-left: 7%;
+}
+
+.Navbar-brand {
+  margin-left: 7%;
+}
+
+
 /* CONTACT ME */
 .Contact-Me {
   margin-left: 18%;
@@ -16,18 +27,6 @@ body {
   text-align: justify;
 }
 
-.Featured-Work {
-  margin-left: 7%;
-}
-
-.Nav-item {
-  margin-left: 7%;
-}
-
-.Navbar-brand {
-  margin-left: 7%;
-}
-
 .Jumbotron h1, h3 {
   margin-left: 5%;
 }
@@ -38,8 +37,23 @@ body {
   margin-right: 4%;
 }
 
+.Featured-Work {
+  margin-left: 7%;
+}
+
 
 /* ELEMENTS */
+.elements {
+  height: 600px;
+  overflow: auto;
+}
+
+.thumbnail {
+  width: 500px;
+  height: 300px;
+  overflow: auto;
+}
+
 .card-text, .card-title, .card-subtitle {
   margin-right: 3%;
   margin-left: 3%;

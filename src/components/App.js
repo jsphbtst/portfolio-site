@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { HashRouter, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
 
 import Header from './Header';
 import Landing from './Landing';
@@ -9,13 +9,13 @@ class App extends Component {
     render() {
         return(
         <div className="App">
-            <HashRouter>
+            <Router>
                 <div>
                     <Header />
                     <Route exact path={'/'} component={Landing} />
                     <Route exact path={'/contact-me'} component={ContactMe} />
                 </div>
-            </HashRouter>   
+            </Router>   
         </div>
         );
     
